@@ -26,7 +26,7 @@ axis(1, at=ticks,labels=c("Thu","Fri","Sat"))
 lines(1:nrow(data), data$Sub_metering_1,   col="black")
 lines(1:nrow(data), data$Sub_metering_2,   col="red")
 lines(1:nrow(data), data$Sub_metering_3,   col="blue")
-
+ 
 
 
 dev.off()
