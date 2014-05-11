@@ -23,7 +23,7 @@ par(mfcol=c(2,2))
 with(data,{
 ## Plot 1
 
-plot(1:nrow(data),Global_active_power, col="black", ylab="Global Active Power (kilowatts)",
+plot(1:nrow(data),Global_active_power, col="black", ylab="Global Active Power",
      main="",type="l",xlab="",xaxt="n")
 axis(1, at=ticks,labels=c("Thu","Fri","Sat"))
 
