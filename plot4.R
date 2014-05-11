@@ -32,7 +32,7 @@ axis(1, at=ticks,labels=c("Thu","Fri","Sat"))
 plot(1:nrow(data),Sub_metering_1, type="n",xaxt="n", 
       xlab="",ylab="Energy sub metering")
 legend("topright",names(data)[7:9],
-       col=c("black","red","blue"),lty=1,bty="n",cex=0.9)
+       col=c("black","red","blue"),lty=1,bty="n",cex=0.95)
 
 axis(1, at=ticks,labels=c("Thu","Fri","Sat"))
 
